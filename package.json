@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "concurrently \"node server.js\" \"npm run dev\"",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.8.4",
