@@ -1,0 +1,16 @@
+Render
+
+Frontend (static site):
+base directory: (leave blank)
+build command: npm run build
+publish directory: dist
+
+Backend (webservice):
+build command: npm install
+start command: npm start
+
+  "scripts": {
+    "start": "concurrently \"node server.js\" \"npm run dev\"",
+    "dev": "vite",
+    "build": "vite build"
+  }
