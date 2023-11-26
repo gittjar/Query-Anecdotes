@@ -23,7 +23,7 @@ server.use(jsonServer.bodyParser)
 server.use(validator)
 server.use(router)
 
-const PORT = 3000;
+const PORT = 3006;
 server.listen(PORT, () => {
   console.log(`Tämä JSON Server on toiminnassa --> http://localhost:${PORT}`);
 });

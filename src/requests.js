@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'https://anecdotes-jarno.onrender.com/anecdotes';
+const baseUrl = 'https://anecdotes-jarno.onrender.com//anecdotes';
 
 export const getAnecdotes = async () => {
   const response = await axios.get(baseUrl);
