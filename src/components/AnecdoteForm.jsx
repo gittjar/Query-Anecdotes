@@ -15,7 +15,7 @@ const AnecdoteForm = () => {
         throw new Error('Too short! Give at least 5 characters long anecdote!');
       }
 
-      const response = await fetch('http://localhost:3001/anecdotes', {
+      const response = await fetch('https://anecdotes-jarno.onrender.com/anecdotes', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
